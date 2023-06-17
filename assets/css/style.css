@@ -1,0 +1,33 @@
+
+#sun {
+  width: 10%;
+  height: 10%;
+}
+
+#row1, #row2 {
+  display: flex;
+  flex-direction: column;
+}
+
+#city-list-container {
+  display: flex;
+}
+
+.card {
+  width: 10rem;
+}
+
+input {
+  width: 100%;
+}
+
+button {
+  width: 100%;
+}
+
+@media screen and (max-width: 540px) {
+  .card {
+    width: 100%;
+  }
+ 
+}
